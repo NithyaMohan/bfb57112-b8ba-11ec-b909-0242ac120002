@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestIncreasingSequence", "LongestIncreasingSequence.csproj", "{25BE6639-C4BC-4B67-B349-DF14145C98C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D656AFC7-525A-4E57-A539-C040B521463F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{230E87B9-7ABA-4AF2-BA4B-3732930C152D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F23F7110-20CA-4A83-ADFF-34EF2290EE85}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LIS_UnitTests", "..\LIS_UnitTests\LIS_UnitTests.csproj", "{D57AC48A-7070-40EF-81EC-47C30C9D75A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25BE6639-C4BC-4B67-B349-DF14145C98C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25BE6639-C4BC-4B67-B349-DF14145C98C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25BE6639-C4BC-4B67-B349-DF14145C98C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25BE6639-C4BC-4B67-B349-DF14145C98C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D57AC48A-7070-40EF-81EC-47C30C9D75A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D57AC48A-7070-40EF-81EC-47C30C9D75A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D57AC48A-7070-40EF-81EC-47C30C9D75A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D57AC48A-7070-40EF-81EC-47C30C9D75A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{25BE6639-C4BC-4B67-B349-DF14145C98C7} = {D656AFC7-525A-4E57-A539-C040B521463F}
+		{D57AC48A-7070-40EF-81EC-47C30C9D75A6} = {230E87B9-7ABA-4AF2-BA4B-3732930C152D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E0C890C-4B60-44EA-9756-2790AA1C831A}
+	EndGlobalSection
+EndGlobal
